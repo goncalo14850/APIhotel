@@ -12,7 +12,7 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 api = Api(app)
 
 #Rotas
-api.add_resource(Hoteis, "/hoteil")
+api.add_resource(Hoteis, "/hoteis")
 api.add_resource(Hotel,"/hoteis/<string:id_hotel>")
 
 if __name__ == "__main__":
